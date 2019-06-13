@@ -24,7 +24,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>Calculator</name>
-			<url>http://localhost:8099/nexus/content/repositories/calculator</url>
+			<url>http://localhost:8089/nexus/content/repositories/calculator/</url>
 			<layout>default</layout>
 		</repository>
 		<!-- snapshotRepository> <id>calculator</id> <url>http://localhost:8099/nexus/content/repositories/calculator</url> 
@@ -57,7 +57,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://localhost:8099/nexus/</nexusUrl>
+					<nexusUrl>http://localhost:8089/nexus/</nexusUrl>
 				</configuration>
 			</plugin>
 
